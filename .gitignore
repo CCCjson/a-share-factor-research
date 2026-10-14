@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+
+# raw / cached market data is never committed
+data/*
+!data/.gitkeep

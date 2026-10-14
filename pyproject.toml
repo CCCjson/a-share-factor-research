@@ -1,0 +1,19 @@
+[project]
+name = "ashare-factor"
+version = "0.1.0"
+description = "Cross-sectional factor research on China A-shares"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
